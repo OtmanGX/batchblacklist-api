@@ -13,6 +13,9 @@
 ## Overview
 
 **Batch BlackList** is an efficient API for evaluating the reputation of IP addresses and domain names, specifically for mail server and DNSBL (DNS-based Blackhole List) monitoring. It checks addresses against multiple widely-used spam and blacklist services to help identify potential issues with email deliverability or domain/IP reputation.
+- Check against well known DNSBLs.
+- Check SenderScore.
+- Check PTR/A Record.
 
 ## Supported Blacklists
 
